@@ -1,0 +1,115 @@
+body {
+    background-color: #263238;
+    color: white;
+}
+
+nav ul li a {
+    color: black;
+}
+
+section {
+    margin: 40px 0px;
+}
+
+h5 {
+    margin-left: 10px;
+}
+
+.loader-wrapper {
+    height: 425px;
+    margin: 70px 0px;
+    padding: 50px;
+    text-align: center;
+    display: block;
+}
+
+.upcoming-match {
+    height: 300px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #37474f;
+}
+
+.scroller {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: auto;
+    margin-bottom: 3rem;
+}
+
+.header-liga {
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+.card {
+    text-align: center;
+}
+
+@media only screen and (max-width:1380px) {
+    .col-liga {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .col-liga {
+        width: 100% !important;
+    }
+}
+
+.logo-liga {
+    height: 150px;
+}
+
+.table-card {
+    padding: 40px;
+}
+
+.about-team {
+    text-align: left;
+}
+
+.btn-favorite {
+    padding: 65px 0px !important;
+}
+
+@media only screen and (max-width:414px) {
+    .col-team {
+        width: 100% !important;
+    }
+
+    .btn-favorite {
+        padding: 10px 0px !important;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .table-scroll {
+        display: flex;
+        flex-direction: row;
+        white-space: nowrap;
+        overflow-x: auto;
+        margin-bottom: 3rem;
+    }
+
+    .table-card {
+        padding: 20px;
+    }
+}
+
+.preload {
+    position: absolute;
+    margin: auto;
+    top: 50vh;
+    bottom: 50vh;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    padding: 15px 0px;
+    background-color: #37474f;
+    text-align: center;
+}
