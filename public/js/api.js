@@ -409,8 +409,8 @@ function showMatchList(data) {
                         <td>${timeConvert(m.utcDate)}</td>
                         <td>${m.homeTeam.name} <span class="red-text">vs</span> ${m.awayTeam.name}</td>
                         <td>${m.status}</td>
-                        <td>${m.score.halfTime.homeTeam === null ? 'NN' : m.score.halfTime.homeTeam} - ${m.score.halfTime.awayTeam === null ? 'NN' : m.score.halfTime.awayTeam}</td>
-                        <td>${m.score.fullTime.homeTeam === null ? 'NN' : m.score.fullTime.homeTeam} - ${m.score.fullTime.awayTeam === null ? 'NN' : m.score.fullTime.awayTeam}</td>
+                        <td>${m.score.halfTime.homeTeam} - ${m.score.halfTime.awayTeam}</td>
+                        <td>${m.score.fullTime.homeTeam} - ${m.score.fullTime.awayTeam}</td>
                     </tr>
                 `;
     });
