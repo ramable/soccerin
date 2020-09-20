@@ -1,5 +1,5 @@
-const API_KEY = "1c8290d6c1b545f69d134a4acf488853";
 const BASE_URL = "https://api.football-data.org/v2/";
+const API_KEY = "fill with your own API Key";
 const ENDPOINT_EPL = `${BASE_URL}competitions/2021/`;
 
 const fetchAPI = url => {
